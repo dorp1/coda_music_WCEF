@@ -34,5 +34,41 @@
     "amount_raised": 2900,
     "demo_url": "https://open.spotify.com/episode/2SpQpll8jtl6x9PQi5dODs",
     "artist": "Tony Robbins"
+  },
+  {
+    "id": 4,
+    "title": "Sky is a Neighborhood",
+    "picture": "images/foo_fighters.jpg",
+    "goal": 3000,
+    "amount_raised": 0,
+    "demo_url": "https://open.spotify.com/embed/track/3kdMzXOcrDIdSWLdONHNK5",
+    "artist": "Foo Fighters"
+  },
+  {
+    "id": 5,
+    "title": "Bing Bong",
+    "picture": "images/bing_bong.jpg",
+    "goal": 1000,
+    "amount_raised": 0,
+    "demo_url": "https://open.spotify.com/embed/track/0ZpvWGwfA9HIAelCzenQML",
+    "artist": "Bing Bong"
+  },
+  {
+    "id": 6,
+    "title": "Experimental Grunge",
+    "picture": "images/grunge.jpg",
+    "goal": 2300,
+    "amount_raised": 0,
+    "demo_url": "https://open.spotify.com/embed/track/5p9Hmglw7GXk4AIfMQDTZl",
+    "artist": "Big Don"
+  },
+  {
+    "id": 7,
+    "title": "Tony Robbins",
+    "picture": "images/tony.png",
+    "goal": 59000,
+    "amount_raised": 2900,
+    "demo_url": "https://open.spotify.com/episode/2SpQpll8jtl6x9PQi5dODs",
+    "artist": "Tony Robbins"
   }
 ]
