@@ -2,33 +2,33 @@ pragma solidity ^0.4.11;
 
 import "truffle/Assert.sol";
 import "truffle/DeployedAddresses.sol";
-import "../contracts/Adoption.sol";
+import "../contracts/Investment.sol";
 
-contract TestAdoption {
-	Adoption adoption = Adoption( DeployedAddresses.Adoption());
+contract TestInvestment {
+	investment = investment( DeployedAddresses.investment());
 
-	function testUserCanAdoptPet() {
-		uint returnedId = adoption.adopt(8);
+	function testUserCaninvestPet() {
+		uint returnedId = investment.invest(8);
 
 		uint expected = 8;
 
-		Assert.equal( returnedId, expected, "Adoption of pet Id 8 should be recorded");
+		Assert.equal( returnedId, expected, "investment of pet Id 8 should be recorded");
 	}
 
-	function testGetAdopterAddressByPetId() {
+	function testGetinvesterAddressByPetId() {
 		address expected = this;
-		
-		address adopter = adoption.adopters(8);
 
-		Assert.equal(adopter, expected, "Owner of pet ID 8 should be recorded.");
+		address invester = investment.investors(8);
+
+		Assert.equal(invester, expected, "Owner of pet ID 8 should be recorded.");
 	}
 
-	function testGetAdoptersAddressbyPetIdInArray() {
+	function testGetinvestorsAddressbyPetIdInArray() {
 		address expected = this;
 
-		address[16] memory adopters = adoption.getAdopters();
+		address[16] memory investors = investment.getinvestors();
 
-		Assert.equal( adopters[8], expected, "owner of pet id 8 should be recorded.");
+		Assert.equal( investors[8], expected, "owner of pet id 8 should be recorded.");
 
 	}
 }

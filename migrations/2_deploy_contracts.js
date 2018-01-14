@@ -1,5 +1,7 @@
-var Adoption = artifacts.require("./Adoption.sol");
+var ProjectFunding = artifacts.require("./ProjectFunding.sol");
+// var Crowdfunding = artifacts.require("./Crowdfunding.sol");
 
 module.exports = function(deployer) {
-	deployer.deploy(Adoption);
+	deployer.deploy(ProjectFunding);
+	// deployer.deploy(Crowdfunding);
 };
