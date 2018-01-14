@@ -94,7 +94,7 @@ App = {
 
   		for ( i = 0; i < investors.length; i++) {
   			if (investors[i] !== '0x0000000000000000000000000000000000000000'){
-  				$('.panel-project').eq(i).find('button').text('Pending...').attr('disabled', true);
+  				$('.panel-project').eq(i).find('button').text('Already Invested...').attr('disabled', true);
   			}
   		}
       console.log(projectInstance);
